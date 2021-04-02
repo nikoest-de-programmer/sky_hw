@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.sky {
+    width: 1000px;
+    height: 600px;
+    background-image: linear-gradient(#000024, #0000ff);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -500px;
+    margin-top: -300px;
+    border-radius: 2%;
+}
+
+.moon {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 100%;
+    box-shadow: inset 40px 0px 0px 20px #fff000;
+    right: 20%;
+    top: 20%;
+    z-index: 0;
+}
+
+.stars {
+    position: absolute;
+    border-radius: 100%;
+    background-color: #fff000;
+}
+
+.cloud {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+}
+
+.cl1 {
+    left: 40%;
+    top: 50%;
+}
+
+.cl2 {
+    left: 15%;
+    top: 40%;
+}
+
+.cloud div {
+    opacity: 70%;
+    float: left;
+}
+
+.c1 {
+    width: 130px;
+    height: 130px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0%;
+    border-radius: 100% 100% 0% 100%;
+}
+
+.c2 {
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 130px;
+    bottom: 0%;
+    border-radius: 100% 100% 0% 0%;
+}
+
+.c3 {
+    width: 175px;
+    height: 175px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 330px;
+    bottom: 0%;
+    border-radius: 100% 100% 100% 0%;
+}
+
+.star1 {
+    width: 15px;
+    height: 15px;
+    left: 20%;
+    top: 20%;
+    box-shadow: 0px 0px 20px 15px #ffffff;
+}
+
+.star2 {
+    width: 7px;
+    height: 7px;
+    right: 20%;
+    top: 30%;
+    box-shadow: 0px 0px 10px 7px #ffffff;
+}
+
+.star3 {
+    width: 10px;
+    height: 10px;
+    left: 30%;
+    bottom: 30%;
+    box-shadow: 0px 0px 10px 10px #ffffff;
+}
